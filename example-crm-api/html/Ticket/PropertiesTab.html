@@ -1,0 +1,15 @@
+<div ng-if="is_loading">Loading results, please wait...</div>
+<div ng-if="!is_loading">
+    <div ng-if="orders.length == 0">
+        This user has no orders.
+    </div>
+    <div ng-if="orders.length > 0">
+        <ul style="margin: 10px">
+            <li ng-repeat="order in orders">
+                <a href="http://example.com/admin/order?id={{order.id}}">
+                    {{order.title}} - ${{order.total}}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+{
+	"package_name": "example_crm_api",
+	"title": "CRM API",
+	"description": "Example of how to consume an API and render results.",
+	"tags": ["example"],
+	"api_version": 1,
+	"version": 1,
+	"version_name": "1.0.0",
+	"is_single": true,
+	"is_native": false,
+	"author": {
+		"name": "DeskPRO",
+		"email": "support@deskpro.com",
+		"link": "https://github.com/DeskPRO/DeskPRO-Apps"
+	},
+	"settings_def": []
+}
