@@ -1,0 +1,17 @@
+{
+	"package_name": "deskpro_default_notetab",
+	"is_native": false,
+	"title": "Default to Note Tab",
+	"description": "Changes Agent Interface to always default to the Note tab instead of the Reply tab.",
+	"tags": ["agent-interface", "ui"],
+	"api_version": 1,
+	"version": 1,
+	"version_name": "1.0.0",
+	"is_single": true,
+	"author": {
+		"name": "DeskPRO",
+		"email": "support@deskpro.com",
+		"link": "https://www.deskpro.com/"
+	},
+	"settings_def": []
+}
