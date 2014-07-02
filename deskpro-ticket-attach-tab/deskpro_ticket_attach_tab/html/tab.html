@@ -13,7 +13,7 @@
 					<span ng-if="!attach.blob.thumbnail_url_30"><img ng-src="{{DP_ASSET_URL}}/images/agent/icons/attach.png" width="16" height="16" /></span>
 				</td>
 				<td valign="middle">
-					<a href="{{attach.blob.download_url}}" target="_blank">{{attach.blob.filename}}</a>
+					<a href="{{attach.blob.download_url}}" target="_blank" drag-to-download="{{attach.blob.content_type}}:{{attach.blob.filename}}:{{attach.blob.download_url}}">{{attach.blob.filename}}</a>
 				</td>
 				<td style="text-align: right" valign="middle">
 					{{attach.blob.filesize_display}}
