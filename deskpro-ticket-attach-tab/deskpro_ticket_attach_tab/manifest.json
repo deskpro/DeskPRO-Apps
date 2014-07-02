@@ -1,0 +1,17 @@
+{
+	"package_name": "deskpro_ticket_attach_tab",
+	"is_native": false,
+	"title": "Ticket Attachments Tab",
+	"description": "Adds an 'Attachments' tab to the ticket view that shows just attachments.",
+	"tags": ["agent-interface", "ui"],
+	"api_version": 1,
+	"version": 1,
+	"version_name": "1.0.0",
+	"is_single": true,
+	"author": {
+		"name": "DeskPRO",
+		"email": "support@deskpro.com",
+		"link": "https://www.deskpro.com/"
+	},
+	"settings_def": []
+}

@@ -1,0 +1,27 @@
+<article>
+	<table cellspacing="0" cellpadding="0" width="100%" class="field-holders-table th-la sla-table" ng-if="attachments.length">
+		<tbody>
+			<tr>
+				<th width="10" style="min-width: 10px;">&nbsp;</th>
+				<th style="text-align: left;" width="100%">File Name</th>
+				<th width="100" style="text-align: right">File Size</th>
+			</tr>
+			<tbody>
+			<tr ng-repeat="attach in attachments">
+				<td valign="middle" style="text-align: center;">
+					<span ng-if="attach.blob.thumbnail_url_30"><img ng-src="{{attach.blob.thumbnail_url_30}}" width="30" height="30" /></span>
+					<span ng-if="!attach.blob.thumbnail_url_30"><img ng-src="{{DP_ASSET_URL}}/images/agent/icons/attach.png" width="16" height="16" /></span>
+				</td>
+				<td valign="middle">
+					<a href="{{attach.blob.download_url}}" target="_blank">{{attach.blob.filename}}</a>
+				</td>
+				<td style="text-align: right" valign="middle">
+					{{attach.blob.filesize_display}}
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div ng-if="!attachments.length" style="padding: 15px;">
+		There are no attachments.
+	</div>
+</article>
