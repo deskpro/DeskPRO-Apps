@@ -1,0 +1,14 @@
+This app removes all links from ticket messages displayed in the agent interface.
+
+INSTALLATION
+============
+
+* Download deskpro_strip_links.zip
+* Go to Admin > Apps then click the "Upload App" button.
+
+MODIFY
+======
+
+The source of this app is visible in the deskpro_strip_links directory.
+
+If you make changes and want to install your modified app, you just need to ZIP up the directory and install it in the same was as described above.

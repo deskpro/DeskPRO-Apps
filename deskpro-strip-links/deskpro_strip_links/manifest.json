@@ -1,0 +1,26 @@
+{
+	"package_name": "deskpro_strip_links",
+	"is_native": false,
+	"title": "Strip links in messages",
+	"description": "This simple app removes clickable links in ticket messages.",
+	"tags": ["agent-interface", "ui"],
+	"api_version": 1,
+	"version": 1,
+	"version_name": "1.0.0",
+	"is_single": true,
+	"author": {
+		"name": "DeskPRO",
+		"email": "support@deskpro.com",
+		"link": "https://www.deskpro.com/"
+	},
+	"settings_def": [
+		{
+			"name": "show_url_text",
+			"type": "checkbox",
+			"label": "Show URL as text?",
+			"description": "When enabled, link URLs will be displayed in square brackets so agents can still copy+paste URLs manually if they want to.",
+			"checkbox_label": "Yes",
+			"native_only": false
+		}
+	]
+}
