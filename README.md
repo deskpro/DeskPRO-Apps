@@ -3,15 +3,15 @@ You can create your own DeskPRO Apps like the ones available for installation fr
 
 These are some code examples and simple completed Apps:
 
-[**example-crm-link**](https://github.com/DeskPRO/DeskPRO-Apps/tree/master/deskpro-default-notetab): example code demonstrating how to create a very simple App to add a link under the ticket Properties area (e.g. to an external CRM system or defect tracker).
+[**example-crm-link**](https://github.com/DeskPRO/DeskPRO-Apps/tree/master/example-crm-link): example code demonstrating how to create a very simple App to add a link under the ticket Properties area (e.g. to an external CRM system or defect tracker).
 
-**example-crm-api**: this example demonstrates how to consume a remote API and render results in a tab in the Ticket view.
+[**example-crm-api**](https://github.com/DeskPRO/DeskPRO-Apps/tree/master/example-crm-api): this example demonstrates how to consume a remote API and render results in a tab in the Ticket view.
 
-**deskpro-default-notetab**: a completed App which changes the default for the ticket reply box to posting an internal agent note instead of sending a reply to the user.
+[**deskpro-default-notetab**](https://github.com/DeskPRO/DeskPRO-Apps/tree/master/deskpro-default-notetab): a completed App which changes the default for the ticket reply box to posting an internal agent note instead of sending a reply to the user.
 
-**deskpro-strip-links**: a completed App which removes all links from ticket messages displayed in the agent interface.
+[**deskpro-strip-links**](https://github.com/DeskPRO/DeskPRO-Apps/tree/master/deskpro-strip-links): a completed App which removes all links from ticket messages displayed in the agent interface.
 
-**deskpro-ticket-attach-tab**: a completed App which adds a new 'Attachments' tab listing all attachments to the ticket.
+[**deskpro-ticket-attach-tab**](https://github.com/DeskPRO/DeskPRO-Apps/tree/master/deskpro-ticket-attach-tab): a completed App which adds a new 'Attachments' tab listing all attachments to the ticket.
 
 To install a completed App to your helpdesk:
 
