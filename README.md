@@ -18,13 +18,9 @@ To install a completed App to your helpdesk:
 1. Create a ZIP of the App directory (preserving the subdirectory structure). We have already provided ZIP files for the completed Apps above.
 2. Go to the **Apps** section of your DeskPRO admin interface.
 3. Click the **Upload App** button.
-
 ![](uploading-app.png)
-
 4. Select the ZIP file from your computer, or provide a URL where it is hosted.
-
 ![](uploading-app2.png)
-
 5. Enter any configuration information the app requires.
 6. Click **Install App** to complete the installation.
 
