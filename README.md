@@ -20,7 +20,6 @@ To install a completed App to your helpdesk:
 3. Click the **Upload App** button.
 
 ![](uploading-app.png)
-
 4. Select the ZIP file from your computer, or provide a URL where it is hosted.
 
 ![](uploading-app2.png)
