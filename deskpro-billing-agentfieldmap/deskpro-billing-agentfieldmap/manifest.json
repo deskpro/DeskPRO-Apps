@@ -1,0 +1,30 @@
+{
+  "package_name": "deskpro-billing-agentfieldmap",
+  "is_native": false,
+  "title": "Billing: Agent Field Map",
+  "description": "Maps Agent IDs to values in a billing field",
+  "tags": ["billing", "ui"],
+  "api_version": 1,
+  "version": 1,
+  "version_name": "1.0.0",
+  "is_single": true,
+  "author": {
+    "name": "DeskPRO",
+    "email": "support@deskpro.com",
+    "link": "https://www.deskpro.com/"
+  },
+  "settings_def": [
+    {
+      "name": "field_id",
+      "type": "text",
+      "label": "Field ID",
+      "description": "Enter the field ID of the field to apply this to"
+    },
+    {
+      "name": "agent_to_value",
+      "type": "textarea",
+      "label": "Map",
+      "description": "Enter one per line: agent_id=value_id"
+    }
+  ]
+}
