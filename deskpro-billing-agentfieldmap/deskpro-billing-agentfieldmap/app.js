@@ -16,7 +16,7 @@ define([], function () {
         defaultInitForm.call(this);
         var form = this.getEl('billing_form');
         var val = map[meId] || false;
-        var field = form.find('select[name="custom_fields[field_' + fieldId + ']"]');
+        var field = form.find('select[name="custom_fields[field_' + fieldId + ']"], select[name="billing_fields[field_' + fieldId + ']"]').first();
 
         if (!field[0]) {
           console.log("[BillingAgentFieldMap] No field custom_def_billing_%d ", fieldId);
